@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:layout_margin="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FORMULIR PENDAFTARAN"
+        android:textSize="24sp"
+        android:layout_gravity="center"
+        android:layout_margin="18dp"/>
+
+    <EditText
+        android:id="@+id/et_nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nama Lengkap"
+        android:textSize="16sp"
+        android:layout_marginTop="38dp"
+        android:padding="12dp"/>
+
+    <EditText
+        android:id="@+id/et_nomor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nomor Pendafataran"
+        android:textSize="16sp"
+        android:layout_marginTop="12dp"
+        android:padding="12dp"
+        android:inputType="number"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Informasi Pendafataran Dari :"
+        android:textSize="16sp"
+        android:layout_marginTop="12dp"
+        android:padding="12dp"/>
+
+    <CheckBox
+        android:id="@+id/cb_fb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Facebook"
+        android:textSize="14sp"
+        android:padding="8dp"
+        android:layout_marginLeft="12dp"/>
+
+    <CheckBox
+        android:id="@+id/cb_ig"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Instagram"
+        android:textSize="14sp"
+        android:padding="8dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="-8dp"/>
+
+    <CheckBox
+        android:id="@+id/cb_web"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Website"
+        android:textSize="14sp"
+        android:padding="8dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="-8dp"/>
+
+    <Button
+        android:id="@+id/btn_daftar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Daftar"
+        android:textSize="16sp"
+        android:padding="8dp"
+        android:layout_marginTop="28dp"/>
+
+
+</LinearLayout>
